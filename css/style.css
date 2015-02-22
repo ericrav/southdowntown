@@ -199,7 +199,7 @@ h3 {
 }
 .page3 {
     position: relative;
-    background-image: url(../img/street.jpg);
+    background-image: url(../img/bg3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -257,7 +257,7 @@ h3.page-header {
     background-image: url(../img/dome.jpg);
 }
 .b3 {
-    background-image: url(../img/bg3.jpg);
+    background-image: url(../img/street.jpg);
 }
 .banner h3 {
     position: relative;
