@@ -40,13 +40,6 @@ h2 {
     font-style: italic;
     font-size: 26px;
 }
-.questions {
-}
-.questions .clock {
-    margin: 0;
-    height: 50px;
-    width: auto;
-}
 h3 {
     text-align: center;
     font-weight: normal;
@@ -59,7 +52,7 @@ h3 {
 
 .sink {
     position: relative;
-    margin: 30px auto;
+    margin: 20px auto 30px;
     width: 300px;
     height: 80px;
     background: rgba(0,0,0,0.3);
@@ -250,7 +243,7 @@ h3.page-header {
 }
 .overlay-black {
     /*background: rgba(255,194,74,0.5);*/
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
 
 }
 .container p, .page2 p {
@@ -287,7 +280,7 @@ h3.page-header {
 }
 .question {
     font-weight: 400;
-    margin: 5px auto 0;
+    margin: 20px auto 0;
     color: #7F6E4B;
     font-size: 26px;
     text-align: center;
