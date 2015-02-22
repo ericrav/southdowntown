@@ -116,15 +116,23 @@ h3 {
     line-height: 60px;
     color: white;
     font-size: 18px;
-    transition: opacity .3s;
+    transition: top .6s, box-shadow .3s;
 }
 .nav.fixed .arrow {
-    pointer-events: none;
-    opacity: 0;
+    top: 4px;
+    line-height: 72px;
+    background: none;
+    box-shadow: none;
+    pointer-events/*: none;
+    opacity: 0;*/
 }
 .nav .arrow:hover {
     background: #862213;
     color: #e7e7e7;
+}
+.nav.fixed .arrow:hover {
+    background: none;
+    opacity: .9;
 }
 .nav .links-container {
     position: absolute;
