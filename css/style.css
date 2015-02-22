@@ -245,10 +245,28 @@ h3.page-header {
     background: rgba(0,0,0,0.5);
 
 }
+.container p, .page2 p {
+    margin: auto;
+    color: #333;
+    max-width: 600px;
+    text-align: justify;
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+}
 .blurb {
     padding: 30px;
     border-radius: 4px;
-    background: rgba(236,236,236,0.75);
+    background: rgba(0,0,0,0.5);
+}
+.blurb h3 {
+    color: white;
+}
+.blurb p {
+    color: #e7e7e7;
+}
+.cci {
+    height: 100px;
+    width: auto;
 }
 .b1 {
     background-image: url(../img/rich.jpg);
@@ -259,6 +277,16 @@ h3.page-header {
 .b3 {
     background-image: url(../img/street.jpg);
 }
+.question {
+    font-weight: 400;
+    margin: 5px auto 0;
+    color: #7F6E4B;
+    font-size: 26px;
+    text-align: center;
+    max-width: 300px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+}
 .banner h3 {
     position: relative;
     z-index: 15;
@@ -267,21 +295,13 @@ h3.page-header {
     font-size: 28px;
     margin: 10px 0 15px;
 }
-.container p, .page2 p {
-    margin: auto;
-    color: #333;
-    max-width: 600px;
-    text-align: justify;
-    font-family: 'Old Standard TT', serif;
-    font-size: 18px;
-}
 .page3 h3.join {
     padding-top: 20%;
     color: white;
     text-shadow: -2px 8px rgba(0,0,0,0.3);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.025em;
     margin: 0 0 5px;
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
 }
